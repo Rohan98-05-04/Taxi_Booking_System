@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Taxi_Booking.Database\Taxi_Booking.Database.csproj" />
+    <ProjectReference Include="..\Taxi_Booking.Model\Taxi_Booking.Model.csproj" />
+  </ItemGroup>
+
+</Project>
